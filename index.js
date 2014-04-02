@@ -1,7 +1,7 @@
 'use strict';
 
-var classes = require('classes')
-  , Emitter = require('emitter')
+var classes = require('component-classes')
+  , Emitter = require('component-emitter')
   , noop    = function() { };
 
 module.exports = Accordion;
